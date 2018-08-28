@@ -1,0 +1,4 @@
+2018-08-28 13:58:14,892 WARN  [SoapUI] Missing folder [C:\Formation\SquashTA-1.10.0-RELEASE-workspace\ProjectSoapUI\.\ext] for external libraries
+2018-08-28 13:58:15,235 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2018-08-28 13:58:15,670 INFO  [SoapUI] File [C:\Formation\SquashTA-1.10.0-RELEASE-workspace\ProjectSoapUI\file:\C:\Users\FORMAT~1\AppData\Local\Temp\Squash_TA\20180828_135743_885\tests\tests\Projet2_5_Recherche.ta\ta_url_repo_Projet2_7460118021136047997.xml] does not exist, trying URL instead
+2018-08-28 13:58:15,762 INFO  [WsdlProject] Loaded project from [file:/C:/Users/FORMAT~1/AppData/Local/Temp/Squash_TA/20180828_135743_885/tests/tests/Projet2_5_Recherche.ta/ta_url_repo_Projet2_7460118021136047997.xml]

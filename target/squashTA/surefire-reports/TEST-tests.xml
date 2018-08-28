@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="30.924" failures="0" tests="7" name="tests" >
+  <testcase time="0.008" classname="tests" name="1testTestCases.ta" />
+  <testcase time="0.0" classname="tests" name="2testTestSuite.ta" />
+  <testcase time="17.358" classname="tests" name="Projet2_1_Global.ta" />
+  <testcase time="3.006" classname="tests" name="Projet2_2_Creer_des_repertoires.ta" />
+  <testcase time="3.379" classname="tests" name="Projet2_3_Gestion_des_documents.ta" />
+  <testcase time="3.47" classname="tests" name="Projet2_4_Bookmark.ta" />
+  <testcase time="3.688" classname="tests" name="Projet2_5_Recherche.ta" />
+</testsuite>

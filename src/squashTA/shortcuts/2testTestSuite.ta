@@ -1,0 +1,24 @@
+// lines prefixed with double slashes count as commentary.
+// the following test will just load a file during the setup phase
+// and make it available in the test context. Read the documentation
+// to know more about scripting. 
+
+
+SETUP :
+
+// LOAD sample-resource.txt AS resource
+
+
+// here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :
+
+TEST :
+
+// # EXECUTE_SOAPUI MyProject.xml WITH TEST_SUITE 6 WS NOAA TestSuite AND TEST_CASE 6 WS NOAA TestCase
+
+//LOAD MyProject.xml AS soapui.file
+
+//CONVERT soapui.file TO script.soapui(structured) AS soapui.proj
+
+//EXECUTE execute WITH soapui.proj USING $(soapui.test.suites:6 WS NOAA TestCase) AS result
+
+//ASSERT result IS success

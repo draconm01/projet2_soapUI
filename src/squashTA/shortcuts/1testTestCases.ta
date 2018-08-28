@@ -1,0 +1,25 @@
+// lines prefixed with double slashes count as commentary.
+// the following test will just load a file during the setup phase
+// and make it available in the test context. Read the documentation
+// to know more about scripting. 
+
+
+SETUP :
+
+// LOAD sample-resource.txt AS resource
+
+// here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :
+
+TEST :
+
+// # EXECUTE_SOAPUI Projet2_SAOP_LogicalDocxml.xml
+
+// # EXECUTE_SOAPUI Projet2_SAOP_LogicalDocxml.xml WITH TEST_SUITE LogicalDoc TestSuite
+
+//LOAD Projet2_SAOP_LogicalDocxml.xml AS soapui.file
+
+//CONVERT soapui.file TO script.soapui(structured) AS soapui.proj
+
+//EXECUTE execute WITH soapui.proj USING $(soapui.test.suites:LogicalDoc TestSuite) AS result
+
+//ASSERT result IS success
